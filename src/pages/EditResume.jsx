@@ -158,7 +158,7 @@ const SubmitButton = styled.button`
 `;
 
 const EditResume = () => {
-  const notify = () => toast("Section added sucessfully!");
+  const notify = () => toast("Section updated sucessfully!");
 
   const deleted = () => toast("Section deleted successfully...");
 
@@ -236,7 +236,6 @@ const EditResume = () => {
 
       setAcademics(updatedAcademics);
     }
-    notify();
   };
 
   const HandleAddAcademics = (e) => {
@@ -257,7 +256,6 @@ const EditResume = () => {
       };
 
       setExperience(updatedExperience);
-      notify();
     }
   };
   const HandleAddExperience = (e) => {
@@ -275,7 +273,6 @@ const EditResume = () => {
         ...updatedProjects[index],
         [e.target.name]: e.target.value,
       };
-      notify();
       setProjects(updatedProjects);
     }
   };
@@ -295,7 +292,6 @@ const EditResume = () => {
     });
 
     setSkills(updatedSkills);
-    notify();
   };
 
   const HanldeAddSkills = (e) => {
@@ -358,6 +354,7 @@ const EditResume = () => {
 
       if (res.status === 200) {
         alert("Resume is updated...");
+        window.location.reload(true);
       }
     } catch (e) {
       console.log(e);

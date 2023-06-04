@@ -237,6 +237,7 @@ const ResumeForm = () => {
 
       if (res.data) {
         alert("Resume is created successfully...");
+        window.location.reload(true);
       }
     } catch (e) {
       console.log(e);
