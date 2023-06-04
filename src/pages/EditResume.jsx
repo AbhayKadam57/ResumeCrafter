@@ -160,6 +160,8 @@ const SubmitButton = styled.button`
 const EditResume = () => {
   const notify = () => toast("Section added sucessfully!");
 
+  const deleted = () => toast("Section deleted successfully...");
+
   const { id, profile, aboutMe, academics, Experience, Projects, Skills } =
     useSelector((state) => state.resumes);
 
@@ -310,7 +312,7 @@ const EditResume = () => {
     const updatedAcademics = Academics.filter((item) => item.id !== id);
 
     setAcademics(updatedAcademics);
-    notify();
+    deleted();
   };
 
   const HandleDeleteExperience = (e, id) => {
@@ -319,6 +321,7 @@ const EditResume = () => {
     const updatedExperience = experience.filter((item) => item.id !== id);
 
     setExperience(updatedExperience);
+    deleted();
   };
 
   const handleDeleteProjects = (e, id) => {
@@ -327,7 +330,7 @@ const EditResume = () => {
     const updatedProjects = experience.filter((item) => item.id !== id);
 
     setProjects(updatedProjects);
-    notify();
+    deleted();
   };
 
   const handleDeleteSkills = (e, id) => {
@@ -336,7 +339,7 @@ const EditResume = () => {
     const updatedSkills = skills.filter((item) => item.id !== id);
 
     setSkills(updatedSkills);
-    notify();
+    deleted();
   };
 
   const HandleUpdateResume = async (e) => {
@@ -434,6 +437,7 @@ const EditResume = () => {
                 value={Profile?.website}
               />
             </InputBox>
+            <ToastContainer />
             <Button onClick={(e) => HandleAddProfile(e)}>Update</Button>
           </ContextBox>
           <ContextBox>
@@ -449,6 +453,7 @@ const EditResume = () => {
                 value={AboutMe}
               />
             </InputBox>
+            <ToastContainer />
             <Button onClick={(e) => HandleAboutMe(e)}>Update</Button>
           </ContextBox>
 
@@ -507,6 +512,7 @@ const EditResume = () => {
                 You can add multiple entries by simply clicking on "add" and
                 proceed with adding another entry.
               </small>
+              <ToastContainer />
               <Button onClick={(e) => HandleAddAcademics(e)}>Update</Button>
               <Button onClick={(e) => HandleDeleteAcademics(e, items.id)}>
                 Delete
@@ -578,6 +584,7 @@ const EditResume = () => {
                 You can add multiple entries by simply clicking on "add" and
                 proceed with adding another entry.
               </small>
+              <ToastContainer />
               <Button onClick={(e) => HandleAddExperience(e)}>Update</Button>
               <Button onClick={(e) => HandleDeleteExperience(e, items.id)}>
                 Delete
@@ -640,6 +647,7 @@ const EditResume = () => {
                 You can add multiple entries by simply clicking on "add" and
                 proceed with adding another entry.
               </small>
+              <ToastContainer />
               <Button onClick={(e) => HandleAddProjects(e)}>Update</Button>
               <Button onClick={(e) => handleDeleteProjects(e, items.id)}>
                 Delete
@@ -674,6 +682,7 @@ const EditResume = () => {
                 You can add multiple entries by simply clicking on "add" and
                 proceed with adding another entry.
               </small>
+              <ToastContainer />
               <Button onClick={(e) => HanldeAddSkills(e)}>Update</Button>
               <Button onClick={(e) => handleDeleteSkills(e, items.id)}>
                 Delete
