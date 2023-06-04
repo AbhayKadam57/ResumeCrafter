@@ -39,7 +39,7 @@ By combining the power of React, React Router DOM, and Redux Toolkit, the Resume
 1. Clone the repo:
 
 ```
-  git clone https://github.com/AbhayKadam57/QuizPop_Quiz_app.git
+  git clone https://github.com/AbhayKadam57/ResumeCrafter.git
 ```
 
 2. Install the project's packages with the following commands:
