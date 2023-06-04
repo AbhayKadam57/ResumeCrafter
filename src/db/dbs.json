@@ -1,0 +1,169 @@
+{
+  "api": [
+    {
+      "id": 793792270099029,
+      "profile": {
+        "name": "Abhay Kadam",
+        "currentDesignation": "Full Stack Developer",
+        "location": "Mumbais",
+        "email": "kadamabhay40@gmail.com",
+        "phone": "7738259548",
+        "website": "www.google.com"
+      },
+      "aboutMe": "As a Civil Engineer with 3 years of experience in project management, I \nhave transitioned into the field of Full Stack Web Development. My career \ndevelopment plan revolves around leveraging my existing engineering \nknowledge, acquiring programming skills, gaining practical experience, \ncontinuous learning, networking, seeking mentorship and embracing \ngrowth opportunities.",
+      "academics": [
+        {
+          "id": "",
+          "schoolName": "Vartak",
+          "degree": "HSC",
+          "from": "2011",
+          "to": "2013",
+          "description": "no"
+        }
+      ],
+      "Experience": [
+        {
+          "id": 141923333922258,
+          "designation": "Project executive",
+          "organization": "Miraj entertainment Limited",
+          "location": "Mumbai",
+          "from": "2018",
+          "to": "2021",
+          "description": "no"
+        }
+      ],
+      "Projects": [
+        {
+          "id": 402950824960777,
+          "title": "Blink it Clone",
+          "url": "https://main--bucolic-heliotrope-70e301.netlify.app/",
+          "from": "2023",
+          "to": "2023",
+          "description": "no"
+        }
+      ],
+      "Skills": [
+        {
+          "id": 737250376125504,
+          "skill": "Interpersonal skill",
+          "rating": "3"
+        },
+        {
+          "id": 262529855812781,
+          "skill": "Reading",
+          "rating": "4"
+        },
+        {
+          "id": 970538050473636,
+          "skill": "Team Player",
+          "rating": "4"
+        },
+        {
+          "id": 623597991982090,
+          "skill": "react",
+          "rating": "4"
+        }
+      ]
+    },
+    {
+      "id": 558343793633689,
+      "profile": {
+        "name": "Abhay Kadam",
+        "currentDesignation": "Full stack developer",
+        "location": "Mumbai",
+        "email": "kadamabhay40@gmail.com",
+        "phone": "122345567899",
+        "website": "www.google.com"
+      },
+      "aboutMe": "sadasd",
+      "academics": [
+        {
+          "id": 873044326116903,
+          "schoolName": "Vartak",
+          "degree": "HSC",
+          "from": "2011",
+          "to": "2013",
+          "description": "dasdasdas"
+        }
+      ],
+      "Experience": [
+        {
+          "id": 482745684814175,
+          "designation": "dasd",
+          "organization": "dasda",
+          "location": "dasd",
+          "from": "dasd",
+          "to": "dasd",
+          "description": "dasdsadsa"
+        }
+      ],
+      "Projects": [
+        {
+          "id": 538057188164757,
+          "title": "dasdasd",
+          "url": "dasdasd",
+          "from": "dasdas",
+          "to": "dasdsa",
+          "description": "dasdasd"
+        }
+      ],
+      "Skills": [
+        {
+          "id": 66688261884149,
+          "skill": "dasdas",
+          "rating": "2"
+        }
+      ]
+    },
+    {
+      "id": 793792270099030,
+      "profile": {
+        "name": "Shital Kadam",
+        "currentDesignation": "dasdas",
+        "location": "dasdasd",
+        "email": "dasd",
+        "phone": "dasd",
+        "website": "dasd"
+      },
+      "aboutMe": "sadasd",
+      "academics": [
+        {
+          "id": 873044326116903,
+          "schoolName": "Vartak",
+          "degree": "HSC",
+          "from": "2011",
+          "to": "2013",
+          "description": "dasdasdas"
+        }
+      ],
+      "Experience": [
+        {
+          "id": 482745684814175,
+          "designation": "dasd",
+          "organization": "dasda",
+          "location": "dasd",
+          "from": "dasd",
+          "to": "dasd",
+          "description": "dasdsadsa"
+        }
+      ],
+      "Projects": [
+        {
+          "id": 538057188164757,
+          "title": "dasdasd",
+          "url": "dasdasd",
+          "from": "dasdas",
+          "to": "dasdsa",
+          "description": "dasdasd"
+        }
+      ],
+      "Skills": [
+        {
+          "id": 66688261884149,
+          "skill": "dasdas",
+          "rating": "2"
+        }
+      ]
+    }
+  ]
+}

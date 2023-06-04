@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import styled from "styled-components";
+import Home from "./pages/Home";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import SingleResume from "./pages/SingleResume";
+import ResumeForm from "./pages/ResumeForm";
+import Navbar from "./components/Navbar";
+import EditResume from "./pages/EditResume";
+
+const Container = styled.main`
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/view-resume/:id" element={<SingleResume />} />
+          <Route path="/create-resume" element={<ResumeForm />} />
+          <Route path="/edit-resume/:Resumeid" element={<EditResume />} />
+        </Routes>
+      </Router>
+    </Container>
   );
 }
 
