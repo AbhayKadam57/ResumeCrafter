@@ -3,7 +3,7 @@
     {
       "id": 793792270099029,
       "profile": {
-        "name": "Abhay Kadam",
+        "name": "Abhay Kadams",
         "currentDesignation": "Full Stack Developer",
         "location": "Mumbais",
         "email": "kadamabhay40@gmail.com",
@@ -49,69 +49,9 @@
           "rating": "3"
         },
         {
-          "id": 262529855812781,
-          "skill": "Reading",
-          "rating": "4"
-        },
-        {
-          "id": 970538050473636,
-          "skill": "Team Player",
-          "rating": "4"
-        },
-        {
           "id": 623597991982090,
           "skill": "react",
           "rating": "4"
-        }
-      ]
-    },
-    {
-      "id": 558343793633689,
-      "profile": {
-        "name": "Abhay Kadam",
-        "currentDesignation": "Full stack developer",
-        "location": "Mumbai",
-        "email": "kadamabhay40@gmail.com",
-        "phone": "122345567899",
-        "website": "www.google.com"
-      },
-      "aboutMe": "sadasd",
-      "academics": [
-        {
-          "id": 873044326116903,
-          "schoolName": "Vartak",
-          "degree": "HSC",
-          "from": "2011",
-          "to": "2013",
-          "description": "dasdasdas"
-        }
-      ],
-      "Experience": [
-        {
-          "id": 482745684814175,
-          "designation": "dasd",
-          "organization": "dasda",
-          "location": "dasd",
-          "from": "dasd",
-          "to": "dasd",
-          "description": "dasdsadsa"
-        }
-      ],
-      "Projects": [
-        {
-          "id": 538057188164757,
-          "title": "dasdasd",
-          "url": "dasdasd",
-          "from": "dasdas",
-          "to": "dasdsa",
-          "description": "dasdasd"
-        }
-      ],
-      "Skills": [
-        {
-          "id": 66688261884149,
-          "skill": "dasdas",
-          "rating": "2"
         }
       ]
     },
