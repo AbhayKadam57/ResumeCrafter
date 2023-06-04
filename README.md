@@ -2,6 +2,9 @@
 
 The KnowledgeHut/Upgrade Hackathon challenge, This repository houses a resume building web application developed using React, React Router DOM, and Redux. This website is specifically designed to provide users with the ability to create, edit, and view resumes.
 
+
+![image1](https://github.com/AbhayKadam57/ResumeCrafter/assets/93931081/76001bb7-5628-476a-8898-4c6f9361767e)
+
 ## 📝 Table of Contents
 
 - [Problem Statement](#problem_statement)
